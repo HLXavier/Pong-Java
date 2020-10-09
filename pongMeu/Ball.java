@@ -44,7 +44,7 @@ public class Ball {
 			dy = Math.sin(Math.toRadians(angle));
 			
 		}else if(x >= GameMeu.width) {
-			System.out.println("Ponto nosso! YAYY!");
+			System.out.println("Você venceu!");
 			try {
 				GameMeu.thread.sleep(2000);
 			} catch (InterruptedException e) {
